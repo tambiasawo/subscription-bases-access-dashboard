@@ -1,0 +1,22 @@
+{
+  "name": "subscription-based-access",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/index.js",
+  "scripts": {
+    "dev": "cd backend && nodemon backend/index.js"
+  },
+  "keywords": [],
+  "author": "Tambi <tambi.asawo@yahoo.com> (https://tambiasawo.com/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
